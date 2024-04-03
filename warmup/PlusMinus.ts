@@ -23,6 +23,7 @@
 			}
 		}
 
+		// biome-ignore lint/complexity/noForEach: <explanation>
 		return [negNums, plusNums, zeros].forEach((val) => {
 			console.log((val / arrLength).toFixed(6));
 		});
